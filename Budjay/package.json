@@ -1,0 +1,10 @@
+{
+  "name": "Budjay",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-main-bower-files": "~1.2.5",
+    "gulp-inject": "~3.0.0",
+    "eslint": "~1.5.1"
+  }
+}

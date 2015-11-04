@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+
+    <!--
+        Personnalisez la stratégie de sécurité de contenu dans la balise méta ci-dessous selon vos besoins. Ajoutez 'unsafe-inline' à default-src pour activer JavaScript directement dans les lignes.
+        Pour obtenir des détails, consultez http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>Budjay</title>
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="libs/ionic/release/css/ionic.css">
+    <!-- endinject -->
+
+    <!-- Références Budjay -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Référence Cordova ajoutée à votre application une fois générée. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <!-- inject:js -->
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-animate/angular-animate.js"></script>
+    <script src="libs/angular-sanitize/angular-sanitize.js"></script>
+    <script src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="libs/ionic/release/js/ionic-angular.js"></script>
+    <script src="libs/ionic/release/js/ionic.js"></script>
+    <!-- endinject -->
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
